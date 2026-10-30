@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+playwright-report/
+test-results/
+
+# Generated browser captures remain local; keep the small verification reports.
+verification/*
+!verification/*.json
+
+# Preserve the design system without committing local workflow state.
+.impeccable/*
+!.impeccable/design.json

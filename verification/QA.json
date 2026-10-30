@@ -1,0 +1,254 @@
+{
+  "viewports": [
+    {
+      "name": "home",
+      "device": "desktop",
+      "title": "Bespoke watches, rings & leather — ÉPURE",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "A personal\nkind of\nprecious."
+      ],
+      "brandLeaks": false,
+      "heroCTA": true,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 22,
+      "motionReady": true
+    },
+    {
+      "name": "gallery",
+      "device": "desktop",
+      "title": "The collection — ÉPURE",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "Objects with\nsomething to say."
+      ],
+      "brandLeaks": false,
+      "heroCTA": false,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 3,
+      "motionReady": true
+    },
+    {
+      "name": "about",
+      "device": "desktop",
+      "title": "About the atelier — ÉPURE",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "Less ordinary.\nMore personal."
+      ],
+      "brandLeaks": false,
+      "heroCTA": false,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 11,
+      "motionReady": true
+    },
+    {
+      "name": "contact",
+      "device": "desktop",
+      "title": "Start a conversation — ÉPURE",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "Every piece\nbegins with a\nconversation."
+      ],
+      "brandLeaks": false,
+      "heroCTA": false,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 2,
+      "motionReady": true
+    },
+    {
+      "name": "home",
+      "device": "mobile",
+      "title": "Bespoke watches, rings & leather — ÉPURE",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "A personal\nkind of\nprecious."
+      ],
+      "brandLeaks": false,
+      "heroCTA": true,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 22,
+      "motionReady": true
+    },
+    {
+      "name": "gallery",
+      "device": "mobile",
+      "title": "The collection — ÉPURE",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "Objects with\nsomething to say."
+      ],
+      "brandLeaks": false,
+      "heroCTA": false,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 3,
+      "motionReady": true
+    },
+    {
+      "name": "about",
+      "device": "mobile",
+      "title": "About the atelier — ÉPURE",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "Less ordinary.\nMore personal."
+      ],
+      "brandLeaks": false,
+      "heroCTA": false,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 11,
+      "motionReady": true
+    },
+    {
+      "name": "contact",
+      "device": "mobile",
+      "title": "Start a conversation — ÉPURE",
+      "width": 390,
+      "scrollWidth": 390,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "Every piece\nbegins with a\nconversation."
+      ],
+      "brandLeaks": false,
+      "heroCTA": false,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 2,
+      "motionReady": true
+    },
+    {
+      "name": "home",
+      "device": "tablet",
+      "title": "Bespoke watches, rings & leather — ÉPURE",
+      "width": 820,
+      "scrollWidth": 820,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "A personal\nkind of\nprecious."
+      ],
+      "brandLeaks": false,
+      "heroCTA": true,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 22,
+      "motionReady": true
+    },
+    {
+      "name": "gallery",
+      "device": "tablet",
+      "title": "The collection — ÉPURE",
+      "width": 820,
+      "scrollWidth": 820,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "Objects with\nsomething to say."
+      ],
+      "brandLeaks": false,
+      "heroCTA": false,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 3,
+      "motionReady": true
+    },
+    {
+      "name": "about",
+      "device": "tablet",
+      "title": "About the atelier — ÉPURE",
+      "width": 820,
+      "scrollWidth": 820,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "Less ordinary.\nMore personal."
+      ],
+      "brandLeaks": false,
+      "heroCTA": false,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 11,
+      "motionReady": true
+    },
+    {
+      "name": "contact",
+      "device": "tablet",
+      "title": "Start a conversation — ÉPURE",
+      "width": 820,
+      "scrollWidth": 820,
+      "fonts": "loaded",
+      "brokenImages": [],
+      "h1": [
+        "Every piece\nbegins with a\nconversation."
+      ],
+      "brandLeaks": false,
+      "heroCTA": false,
+      "headingOverflow": false,
+      "gsap": "3.13.0",
+      "lenis": true,
+      "scrollTriggers": 2,
+      "motionReady": true
+    }
+  ],
+  "interactions": [
+    "desktop: menu + Escape + Lenis pause/resume",
+    "desktop: all four gallery filters",
+    "desktop: details, zoom, fullscreen, arrow keys, Escape, smooth-scroll recovery",
+    "desktop: required form fields reject an empty draft",
+    "desktop: honest enquiry draft + download",
+    "mobile: menu + Escape + Lenis pause/resume",
+    "mobile: all four gallery filters",
+    "mobile: details, zoom, fullscreen, arrow keys, Escape, smooth-scroll recovery",
+    "mobile: required form fields reject an empty draft",
+    "mobile: honest enquiry draft + download",
+    "tablet: menu + Escape + Lenis pause/resume",
+    "tablet: all four gallery filters",
+    "tablet: details, zoom, fullscreen, arrow keys, Escape, smooth-scroll recovery",
+    "tablet: required form fields reject an empty draft",
+    "tablet: honest enquiry draft + download",
+    "System reduced-motion removes scroll scene pinning"
+  ],
+  "errors": [],
+  "failures": [],
+  "externalRequests": [],
+  "pass": true
+}

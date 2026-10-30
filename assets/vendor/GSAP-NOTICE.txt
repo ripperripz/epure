@@ -1,0 +1,5 @@
+GSAP, ScrollTrigger and SplitText 3.13.0
+Copyright 2025 GreenSock. All rights reserved.
+Original distribution copyright/license headers are retained in each JavaScript file.
+License and usage terms: https://gsap.com/standard-license
+Documentation: https://gsap.com/docs/v3/

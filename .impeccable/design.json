@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-30T07:08:07.869996+00:00",
+  "title": "Design System: \u00c9PURE",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "#312b1b",
+          "#564a2f",
+          "#7a6943",
+          "#9e8956",
+          "#b5a378",
+          "#c9bc9c",
+          "#dfd7c4",
+          "#f6f4ee"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "#2a2a23",
+          "#48483c",
+          "#676756",
+          "#858570",
+          "#a0a08d",
+          "#b9b9ac",
+          "#d5d5cd",
+          "#f3f3f1"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "#282725",
+          "#45443f",
+          "#63615a",
+          "#807e75",
+          "#9b9992",
+          "#b6b4af",
+          "#d3d2cf",
+          "#f3f3f2"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "#2b2822",
+          "#4a463b",
+          "#696354",
+          "#88806c",
+          "#a29c8a",
+          "#bbb6aa",
+          "#d6d3cc",
+          "#f4f3f1"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Night",
+        "tonalRamp": [
+          "#282825",
+          "#454540",
+          "#62625a",
+          "#808075",
+          "#9b9b92",
+          "#b6b6af",
+          "#d3d3cf",
+          "#f3f3f2"
+        ]
+      },
+      "accent": {
+        "role": "neutral",
+        "displayName": "Accent",
+        "tonalRamp": [
+          "#331f19",
+          "#59362c",
+          "#7f4c3e",
+          "#a46351",
+          "#ba8273",
+          "#cda498",
+          "#e1c8c1",
+          "#f7f0ee"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Sunlight display",
+        "purpose": "Editorial headings and cinematic hero"
+      },
+      "body": {
+        "displayName": "Theinhardt body",
+        "purpose": "Reading text and controls"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "editorial-ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Fine hover feedback and image affordances"
+      },
+      {
+        "name": "GSAP power4.out",
+        "value": "power4.out",
+        "purpose": "Masked lines and opening choreography"
+      },
+      {
+        "name": "Lenis interpolation",
+        "value": "0.085",
+        "purpose": "Desktop wheel continuity synchronized with GSAP ticker"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "540px"
+      },
+      {
+        "name": "compact",
+        "value": "800px"
+      },
+      {
+        "name": "contact-stack",
+        "value": "1000px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Editorial action",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Underlined text action with fine arrow.",
+      "html": "<button class=\"ds-link\">Explore the collection <svg viewBox=\"0 0 32 16\" width=\"30\" height=\"16\" fill=\"none\" aria-hidden=\"true\"><path d=\"M1 8h28M23 1l7 7-7 7\" stroke=\"currentColor\" stroke-width=\"1.2\"/></svg></button>",
+      "css": ".ds-link{display:inline-flex;align-items:center;gap:30px;background:none;color:var(--ink);border:0;border-bottom:1px solid currentColor;padding:12px 0;font:14px Theinhardt,Arial;cursor:pointer}.ds-link svg{transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-link:hover svg{transform:translateX(6px)}.ds-link:focus-visible{outline:2px solid currentColor;outline-offset:5px}"
+    },
+    {
+      "name": "Enquiry field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Transparent line field with visible placeholder.",
+      "html": "<label class=\"ds-label\">Your name<input class=\"ds-input\" placeholder=\"First and last name\"></label>",
+      "css": ".ds-label{display:block;font:13px Theinhardt,Arial;color:var(--ink)}.ds-input{display:block;width:100%;background:transparent;color:var(--ink);border:0;border-bottom:1px solid var(--line);border-radius:0;margin-top:13px;padding:12px 0;font:14px Theinhardt,Arial}.ds-input::placeholder{color:var(--muted);opacity:1}.ds-input:hover{border-color:var(--ink)}.ds-input:focus-visible{outline:2px solid currentColor;outline-offset:5px}"
+    },
+    {
+      "name": "Atelier wordmark",
+      "kind": "nav",
+      "description": "Quiet centered serif identity and navigation.",
+      "html": "<nav class=\"ds-nav\"><a href=\"/\">\u00c9PURE</a><a href=\"/gallery/\">Collection</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;color:var(--ink);gap:40px}.ds-nav a{color:inherit;text-decoration:none;font:14px Theinhardt,Arial}.ds-nav a:first-child{font:36px Sunlight,Georgia;letter-spacing:.075em}.ds-nav a:hover{text-decoration:underline;text-underline-offset:5px}.ds-nav a:focus-visible{outline:2px solid currentColor;outline-offset:5px}"
+    },
+    {
+      "name": "Category controls",
+      "kind": "chip",
+      "description": "Unboxed categories with an underline for selection.",
+      "html": "<div class=\"ds-filters\"><button aria-pressed=\"true\">All pieces</button><button>Watches</button><button>Rings</button></div>",
+      "css": ".ds-filters{display:flex;gap:28px;border-bottom:1px solid var(--line);padding:18px 0}.ds-filters button{font:14px Theinhardt,Arial;border:0;background:none;color:var(--muted);padding:4px 0;cursor:pointer}.ds-filters button[aria-pressed=true]{color:var(--ink);text-decoration:underline;text-underline-offset:23px}.ds-filters button:hover{color:var(--ink)}.ds-filters button:focus-visible{outline:2px solid currentColor;outline-offset:5px}"
+    },
+    {
+      "name": "Product study",
+      "kind": "card",
+      "description": "Unboxed image and serif caption; metadata follows the title.",
+      "html": "<a class=\"ds-piece\" href=\"/gallery/?category=rings\"><img src=\"/assets/atelier/ring-768.webp\" alt=\"Illustrative ring concept\"><h3>A study in form</h3><span>Rings</span></a>",
+      "css": ".ds-piece{display:block;max-width:340px;text-decoration:none;color:var(--ink)}.ds-piece img{display:block;width:100%;aspect-ratio:1/1.12;object-fit:cover;transition:transform 1s cubic-bezier(.16,1,.3,1)}.ds-piece h3{font:31px Sunlight,Georgia;margin:22px 0 7px}.ds-piece span{font:12px Theinhardt,Arial;color:var(--muted)}.ds-piece:hover img{transform:scale(1.02)}.ds-piece:focus-visible{outline:2px solid currentColor;outline-offset:5px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The personal object",
+    "overview": "Photography leads; the interface gives it space. The original Sunlight and Theinhardt pairing is retained, with dramatic serif display type and restrained functional text. A warm paper ground alternates with near-black photographic scenes.",
+    "keyCharacteristics": [
+      "Monumental product imagery and asymmetric editorial composition.",
+      "High-contrast serif type with occasional italic emphasis.",
+      "Flat controls, fine rules and generous separation.",
+      "One authored scroll scene, supported by GSAP masked typography, image reveals and Lenis continuity."
+    ],
+    "rules": [
+      {
+        "name": "The Material Colour Rule",
+        "body": "Let product photographs supply the expressive colour; keep navigation and reading surfaces quiet.",
+        "section": "colors"
+      },
+      {
+        "name": "The Complete Phrase Rule",
+        "body": "Headlines must remain fully visible at every viewport; adjust their scale or line breaks before accepting clipping or a stranded article.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Motion Rule",
+        "body": "Lenis and ScrollTrigger share the GSAP ticker. Keep touch scrolling native, use one authored sticky scene, and pause smoothing while overlays are open. System and manual reduced-motion settings remove choreography and pinning.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do retain the local Sunlight and Theinhardt font files.",
+      "Do keep keyboard focus visible and support reduced motion."
+    ],
+    "donts": [
+      "Don\u2019t invent heritage, product specifications, prices or external purchase URLs."
+    ]
+  }
+}

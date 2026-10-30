@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "checks": [
+    "Local GSAP, ScrollTrigger, SplitText and Lenis active",
+    "Wheel movement interpolates and settles through Lenis",
+    "ScrollTrigger drives the workshop-to-ring transition",
+    "Page curtain hands off to gallery and clears",
+    "Manual reduce motion destroys Lenis and scroll choreography",
+    "Manual enable motion recreates one synchronized runtime"
+  ],
+  "errors": [],
+  "wheel": {
+    "intermediate": 226,
+    "settled": 647
+  },
+  "craftProgress": 0.787548,
+  "video": "verification/atelier-motion.webm"
+}

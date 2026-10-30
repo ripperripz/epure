@@ -1,0 +1,15 @@
+{
+  "name": "epure-bespoke-atelier",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.cjs",
+    "verify": "node verify.cjs",
+    "build": "node build.cjs",
+    "check": "node --check build.cjs && node --check atelier.js && node --check motion.js && node --check server.cjs && node --check verify.cjs && node --check verify-motion.cjs",
+    "verify:motion": "node verify-motion.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

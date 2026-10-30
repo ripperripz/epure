@@ -1,0 +1,12 @@
+{
+  "brand": "ÉPURE",
+  "workingIdentity": true,
+  "email": null,
+  "formEndpoint": null,
+  "socialLinks": [],
+  "products": [
+    {"id":"time-study","category":"watches","name":"A study in time","image":"watch","alt":"Unbranded dark-dial watch with a black leather strap, an AI-generated design study","description":"A quiet dial. A considered silhouette. An exploration of the watch as a deeply personal object.","details":[["The direction","Clarity, balance, restraint"],["Your starting point","Dial, case and strap preferences"],["Availability","Illustrative concept — not offered for sale"]],"purchaseUrl":null},
+    {"id":"form-study","category":"rings","name":"A study in form","image":"ring","alt":"Sculptural gold-coloured ring on ivory paper, an AI-generated design study","description":"A continuous gesture, shaped around the hand. An exploration of light, proportion and the meaning a ring can hold.","details":[["The direction","Fluid lines and sculptural volume"],["Your starting point","Shape, finish and personal meaning"],["Availability","Illustrative concept — not offered for sale"]],"purchaseUrl":null},
+    {"id":"texture-study","category":"straps","name":"A study in texture","image":"strap","alt":"Oxblood leather watch-strap pieces with contrasting stitching, an AI-generated design study","description":"The point where time meets touch. An exploration of grain, colour and the smallest finishing details.","details":[["The direction","Tactile grain and deliberate contrast"],["Your starting point","Watch fit, colour and stitching"],["Availability","Illustrative concept — not offered for sale"]],"purchaseUrl":null}
+  ]
+}
